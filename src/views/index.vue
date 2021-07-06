@@ -1,9 +1,5 @@
 <template>
-<ul>
-  <li></li>
-  <li></li>
-  <li></li>
-</ul>
+
   <div class="index">
     <vue-particles
       class="bglz"
@@ -44,7 +40,7 @@
           <div>{{ user[0].realname }}，{{ showTime }}</div>
         </div>
         <div class="info">
-          <div class="tongzhi">通知</div>
+          <div class="tongzhi">通知1</div>
           <marquee
             class="tongzhi-info"
             width="100%"
