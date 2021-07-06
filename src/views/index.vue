@@ -40,7 +40,7 @@
           <div>{{ user[0].realname }}，{{ showTime }}</div>
         </div>
         <div class="info">
-          <div class="tongzhi">通知333</div>
+          <div class="tongzhi">通知sss</div>
           <marquee
             class="tongzhi-info"
             width="100%"
