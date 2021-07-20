@@ -151,6 +151,7 @@ export default {
   created() {
     this.test().then((res)=>{
       console.log(res)
+      console.log(res)
     })
     this.load();
     this.form1 = {};
