@@ -149,6 +149,9 @@ export default {
     };
   },
   created() {
+    this.test().then((res)=>{
+      console.log(res)
+    })
     this.load();
     this.form1 = {};
     var that = this;
@@ -243,6 +246,20 @@ export default {
         }
       });
     },
+    test(){
+      return new Promise((resolve,reject)=>{
+        $.ajax({
+          url: url + ":1234/findXueYuan",
+          method: "GET",
+          success(res){
+            resolve(res)
+          },
+          error(err){
+            reject(err)
+          }
+        })
+      })
+    }
   },
 };
 </script>
